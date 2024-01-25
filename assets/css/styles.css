@@ -107,7 +107,6 @@ a {
     border-radius: 8px;
 }
 
-
 .hero .info {
     width: 51%;
 }
@@ -313,8 +312,9 @@ a {
 
 .featured .list {
     margin-top: 70px;
-    display: flex;
+    display: grid;
     gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .featured .item {
